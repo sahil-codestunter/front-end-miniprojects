@@ -1,0 +1,126 @@
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  min-height: 100vh;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+  background-color: #F3E5D8;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#simp{
+  background: white;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+#egg{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 100;
+}
+.prep{
+  color: darkmagenta;
+  font-weight: 500;
+  padding-left: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
+}
+.prep ul{
+  list-style-type: disc;
+  padding-left: 60px;
+  font-family: initial;
+}
+.prep strong{
+  color: black;
+  font-weight: 400;
+}
+.prep li{
+  color: black;
+  font-weight: 300;
+  font-size: medium;
+}
+.ing{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 500;
+  color:  brown;
+  padding-left: 40px;
+  font-size: large;
+}
+.ing ul{
+font-family: initial;
+font-size: medium;
+color: black;
+padding-left: 40px;
+margin-top: 3px;
+}
+.Inst{
+  padding-left: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: large;
+  color: brown;
+}
+.Inst ol{
+  margin-top: 3px;
+  font-family: initial;
+  color: black;
+  font-size: medium;
+  padding-left: 40px;
+}
+.nutri{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: brown;
+}
+.nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+.nutrition-table tr{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.nutrition-table td {
+    padding: 12px 0;
+    border-bottom: 1px solid #ddd;
+    font-family:initial;
+}
+
+.nutrition-table tr:last-child td {
+    border-bottom: none;
+}
+.nutrition-table td {
+    border-bottom: 1px solid #201f1f;
+}
+.nutrition-table tr:last-child td {
+    border-bottom: none;
+}
+.omelet-img{
+    width: 100%;
+    border-radius: 12px;
+    display: block;
+    margin-bottom: 20px;
+}
+#simp {
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #3b2f2f;
+}
+
+#egg {
+    color: #6c6c6c;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+.container {
+    width: 650px;        /* card width */
+    background: white;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+
