@@ -54,7 +54,3 @@ Stay tuned — this collection will keep growing!
 
 🙌 Support
 If you like the projects, feel free to ⭐ star the repository!
-
-Bhai agar chaahe toh main iske andar
-badhiya badges, emojis, shields, or images bhi add kar sakta hoon —
-just bol dena.
