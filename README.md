@@ -1,4 +1,5 @@
-🌟 Front-End Mini Projects
+🌟 Front-End Mini Projects :
+
 A curated collection of frontend mini projects built using
 HTML, CSS, JavaScript, and React.
 These projects focus on mastering UI components, layouts, responsiveness, DOM manipulation, and reusable React patterns — helping me level up as a frontend developer.
