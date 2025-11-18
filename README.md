@@ -7,6 +7,8 @@ These projects focus on mastering UI components, layouts, responsiveness, DOM ma
 🚀 Tech Stack
 TechnologyDescriptionHTML5Structure & semantic markupCSS3Styling, layouts, Flexbox, Grid, responsive UIJavaScript (ES6+)DOM, events, logic buildingReact.jsComponents, hooks, props, state management
 
+
+
 📁 Project Structure
 Each project is organized in its own folder for easy navigation:
 front-end-miniprojects/
@@ -14,6 +16,8 @@ front-end-miniprojects/
 │── omelette-recipe/
 │── social-links-profile/
 │── (more coming soon...)
+
+
 
 
 🌐 Live Demo URLs
