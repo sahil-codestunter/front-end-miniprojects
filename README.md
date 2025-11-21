@@ -15,8 +15,8 @@ front-end-miniprojects/
 │── coin-toss/
 │── omelette-recipe/
 │── social-links-profile/
+│── product-preview-card/
 │── (more coming soon...)
-
 
 
 
