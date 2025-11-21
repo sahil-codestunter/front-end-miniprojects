@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --green--clr: hsl(158, 36%, 37%);
+    --dgreen--clr: hsl(158, 42%, 18%);
+    --black--clr: hsl(212, 21%, 14%);
+    --Grey--clr: hsl(228, 12%, 48%);
+    --Cream--clr: hsl(30, 38%, 92%);
+    --White--clr: hsl(0, 0%, 100%);
+    --fs--p:14px;
+    --fw--b:700;
+    --fw--d:500;
+    --ff--d:montserrat,sans-serif;
+    --ff--b:fraunces,serif;
+}
+*, 
+*::before, 
+*::after {
+     margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: var(--Cream--clr);
+    flex-direction: column;
+    min-height: 100vh;
+}
+.img {
+    width: 100%;  
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.price {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 25px;
+}
+
+
+.heading {
+    letter-spacing: 4px;
+    font-size: 12px;
+    margin-bottom: 12px;
+    color: var(--Grey--clr);
+}
+.title{
+    margin-bottom: 20px;
+    font-size: 38px;
+    line-height: 1.1;
+font-family: var(--ff--b);
+font-weight: var(--fw--b);
+color: var(--black--clr)
+
+}
+.description{
+    font-family: var(--ff--d);
+    font-weight: var(--fw--d);
+    color: var(--Grey--clr);
+    font-size: 14px;
+    margin-bottom: 25px; /* Ya 400 set karke dekho */
+    line-height: 1.6;
+}
+.new-price{
+    font-family: var(--ff--b);
+    font-weight: var(--fw--b);
+    color: var(--green--clr);
+    font-size: 30px;
+}
+.old-price{
+    color: var(--Grey--clr);
+    text-decoration: line-through; /* Strikethrough add kiya */
+    font-size: 13px;
+}
+.button{
+    color: var(--White--clr);
+     background-color: var(--green--clr);
+        cursor: pointer;
+        padding: 12px 0;
+        width: 100%;
+        border-radius: 8px;
+        font-weight: var(--fw--b);
+        font-size: var(--fs--p);
+        transition: background-color 0.3sec ease;
+}
+    .button:hover{
+background-color: var(--dgreen--clr);
+    }
+.maincard{
+    max-width: 700px;
+    width: 90%;
+    height: 500px;
+    background-color: var(--White--clr);
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+}
+.right{
+    padding: 36px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.left {
+   width: 50%;
+   img-height:100%;
+}
+footer {
+    width: 100%; /* Footer ko poori width do */
+    text-align: center; /* Text ko center mein laao */
+    margin-top: 25px; /* Card aur footer ke beech space do */
+    padding: 10px 0;
+    font-size: 11px; /* Thoda chhota font rakh sakte hain */
+}
