@@ -123,11 +123,11 @@ footer {
     padding: 10px 0;
     font-size: 11px; /* Thoda chhota font rakh sakte hain */
 }
-/* 🔥 Responsive Fix for Mobile */
+
 @media (max-width: 600px) {
     .maincard {
         flex-direction: column;
-        height: auto; /* Full adjust */
+        height: auto; 
     }
 
     .left, 
@@ -136,8 +136,8 @@ footer {
     }
 
     .img {
-        height: 250px;   /* Mobile ke liye perfect height */
-        border-radius: 0; /* Mobile me rounded corners avoid */
+        height: 250px;   
+        border-radius: 0; 
     }
 
     .right {
@@ -145,7 +145,7 @@ footer {
     }
 
     .title {
-        font-size: 28px;  /* Mobile friendly size */
+        font-size: 28px; 
     }
 
     .description {
